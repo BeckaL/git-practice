@@ -11,3 +11,7 @@ def test_returns_the_number_for_any_other_number():
 def test_returns_buzz_for_multiples_of_five():
     number = 5
     assert "buzz" == fizzbuzz(number)
+
+def test_returns_fizzbuzz_for_multiples_of_fifteen():
+    number = 30
+    assert "fizzbuzz" == fizzbuzz(number)
